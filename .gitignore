@@ -1,0 +1,11 @@
+*.bat
+
+token*
+
+credentials*
+
+design/__pycache__
+
+.vs
+
+__pycache__

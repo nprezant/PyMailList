@@ -1,0 +1,244 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a83f6cfe-7851-40c9-892c-0bdd70c4b3ff</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PyMailList</Name>
+    <RootNamespace>PyMailList</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>CondaEnv|CondaEnv|PyMailListEnv</InterpreterId>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterArguments>
+    </InterpreterArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="design\BreezeStyleSheets\breeze_resources.py" />
+    <Compile Include="design\BreezeStyleSheets\dark.py" />
+    <Compile Include="design\BreezeStyleSheets\example.py" />
+    <Compile Include="design\BreezeStyleSheets\light.py" />
+    <Compile Include="design\BreezeStyleSheets\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="design\BreezeStyleSheets\native.py" />
+    <Compile Include="main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="design\mainwindow.py" />
+    <Compile Include="design\__init__.py" />
+    <Compile Include="gmail.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|PyMailListEnv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="design\" />
+    <Folder Include="design\BreezeStyleSheets\" />
+    <Folder Include="design\BreezeStyleSheets\assets\" />
+    <Folder Include="design\BreezeStyleSheets\dark\" />
+    <Folder Include="design\BreezeStyleSheets\light\" />
+    <Folder Include="design\qss\" />
+    <Folder Include="design\qss\dark\" />
+    <Folder Include="design\qss\light\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="design\BreezeStyleSheets\.gitignore" />
+    <Content Include="design\BreezeStyleSheets\assets\Breeze.gif" />
+    <Content Include="design\BreezeStyleSheets\breeze.qrc" />
+    <Content Include="design\BreezeStyleSheets\dark.qss" />
+    <Content Include="design\BreezeStyleSheets\dark\branch_closed-on.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\branch_closed.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\branch_open-on.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\branch_open.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\checkbox_checked.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\checkbox_checked_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\checkbox_indeterminate.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\checkbox_indeterminate_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\checkbox_unchecked.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\checkbox_unchecked_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\close-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\close-pressed.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\close.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\down_arrow-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\down_arrow.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\down_arrow_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\hmovetoolbar.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\hsepartoolbar.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\left_arrow.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\left_arrow_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\radio_checked.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\radio_checked_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\radio_unchecked.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\radio_unchecked_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\right_arrow.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\right_arrow_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\sizegrip.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\spinup_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\stylesheet-branch-end.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\stylesheet-branch-more.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\stylesheet-vline.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\transparent.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\undock-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\undock.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\up_arrow-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\up_arrow.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\up_arrow_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\vmovetoolbar.svg" />
+    <Content Include="design\BreezeStyleSheets\dark\vsepartoolbars.svg" />
+    <Content Include="design\BreezeStyleSheets\LICENSE.md" />
+    <Content Include="design\BreezeStyleSheets\light.qss" />
+    <Content Include="design\BreezeStyleSheets\light\branch_closed-on.svg" />
+    <Content Include="design\BreezeStyleSheets\light\branch_closed.svg" />
+    <Content Include="design\BreezeStyleSheets\light\branch_open-on.svg" />
+    <Content Include="design\BreezeStyleSheets\light\branch_open.svg" />
+    <Content Include="design\BreezeStyleSheets\light\checkbox_checked-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\light\checkbox_checked.svg" />
+    <Content Include="design\BreezeStyleSheets\light\checkbox_checked_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\checkbox_indeterminate-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\light\checkbox_indeterminate.svg" />
+    <Content Include="design\BreezeStyleSheets\light\checkbox_indeterminate_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\checkbox_unchecked-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\light\checkbox_unchecked_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\close-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\light\close-pressed.svg" />
+    <Content Include="design\BreezeStyleSheets\light\close.svg" />
+    <Content Include="design\BreezeStyleSheets\light\down_arrow-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\light\down_arrow.svg" />
+    <Content Include="design\BreezeStyleSheets\light\down_arrow_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\hmovetoolbar.svg" />
+    <Content Include="design\BreezeStyleSheets\light\hsepartoolbar.svg" />
+    <Content Include="design\BreezeStyleSheets\light\left_arrow.svg" />
+    <Content Include="design\BreezeStyleSheets\light\left_arrow_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\radio_checked-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\light\radio_checked.svg" />
+    <Content Include="design\BreezeStyleSheets\light\radio_checked_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\radio_unchecked-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\light\radio_unchecked_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\right_arrow.svg" />
+    <Content Include="design\BreezeStyleSheets\light\right_arrow_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\sizegrip.svg" />
+    <Content Include="design\BreezeStyleSheets\light\spinup_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\stylesheet-branch-end.svg" />
+    <Content Include="design\BreezeStyleSheets\light\stylesheet-branch-more.svg" />
+    <Content Include="design\BreezeStyleSheets\light\stylesheet-vline.svg" />
+    <Content Include="design\BreezeStyleSheets\light\transparent.svg" />
+    <Content Include="design\BreezeStyleSheets\light\undock-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\light\undock.svg" />
+    <Content Include="design\BreezeStyleSheets\light\up_arrow-hover.svg" />
+    <Content Include="design\BreezeStyleSheets\light\up_arrow.svg" />
+    <Content Include="design\BreezeStyleSheets\light\up_arrow_disabled.svg" />
+    <Content Include="design\BreezeStyleSheets\light\vmovetoolbar.svg" />
+    <Content Include="design\BreezeStyleSheets\light\vsepartoolbars.svg" />
+    <Content Include="design\BreezeStyleSheets\README.md" />
+    <Content Include="design\qss\dark.qss" />
+    <Content Include="design\qss\dark\branch_closed-on.svg" />
+    <Content Include="design\qss\dark\branch_closed.svg" />
+    <Content Include="design\qss\dark\branch_open-on.svg" />
+    <Content Include="design\qss\dark\branch_open.svg" />
+    <Content Include="design\qss\dark\checkbox_checked.svg" />
+    <Content Include="design\qss\dark\checkbox_checked_disabled.svg" />
+    <Content Include="design\qss\dark\checkbox_indeterminate.svg" />
+    <Content Include="design\qss\dark\checkbox_indeterminate_disabled.svg" />
+    <Content Include="design\qss\dark\checkbox_unchecked.svg" />
+    <Content Include="design\qss\dark\checkbox_unchecked_disabled.svg" />
+    <Content Include="design\qss\dark\close-hover.svg" />
+    <Content Include="design\qss\dark\close-pressed.svg" />
+    <Content Include="design\qss\dark\close.svg" />
+    <Content Include="design\qss\dark\down_arrow-hover.svg" />
+    <Content Include="design\qss\dark\down_arrow.svg" />
+    <Content Include="design\qss\dark\down_arrow_disabled.svg" />
+    <Content Include="design\qss\dark\hmovetoolbar.svg" />
+    <Content Include="design\qss\dark\hsepartoolbar.svg" />
+    <Content Include="design\qss\dark\left_arrow.svg" />
+    <Content Include="design\qss\dark\left_arrow_disabled.svg" />
+    <Content Include="design\qss\dark\radio_checked.svg" />
+    <Content Include="design\qss\dark\radio_checked_disabled.svg" />
+    <Content Include="design\qss\dark\radio_unchecked.svg" />
+    <Content Include="design\qss\dark\radio_unchecked_disabled.svg" />
+    <Content Include="design\qss\dark\right_arrow.svg" />
+    <Content Include="design\qss\dark\right_arrow_disabled.svg" />
+    <Content Include="design\qss\dark\sizegrip.svg" />
+    <Content Include="design\qss\dark\spinup_disabled.svg" />
+    <Content Include="design\qss\dark\stylesheet-branch-end.svg" />
+    <Content Include="design\qss\dark\stylesheet-branch-more.svg" />
+    <Content Include="design\qss\dark\stylesheet-vline.svg" />
+    <Content Include="design\qss\dark\transparent.svg" />
+    <Content Include="design\qss\dark\undock-hover.svg" />
+    <Content Include="design\qss\dark\undock.svg" />
+    <Content Include="design\qss\dark\up_arrow-hover.svg" />
+    <Content Include="design\qss\dark\up_arrow.svg" />
+    <Content Include="design\qss\dark\up_arrow_disabled.svg" />
+    <Content Include="design\qss\dark\vmovetoolbar.svg" />
+    <Content Include="design\qss\dark\vsepartoolbars.svg" />
+    <Content Include="design\qss\LICENSE.md" />
+    <Content Include="design\qss\light.qss" />
+    <Content Include="design\qss\light\branch_closed-on.svg" />
+    <Content Include="design\qss\light\branch_closed.svg" />
+    <Content Include="design\qss\light\branch_open-on.svg" />
+    <Content Include="design\qss\light\branch_open.svg" />
+    <Content Include="design\qss\light\checkbox_checked-hover.svg" />
+    <Content Include="design\qss\light\checkbox_checked.svg" />
+    <Content Include="design\qss\light\checkbox_checked_disabled.svg" />
+    <Content Include="design\qss\light\checkbox_indeterminate-hover.svg" />
+    <Content Include="design\qss\light\checkbox_indeterminate.svg" />
+    <Content Include="design\qss\light\checkbox_indeterminate_disabled.svg" />
+    <Content Include="design\qss\light\checkbox_unchecked-hover.svg" />
+    <Content Include="design\qss\light\checkbox_unchecked_disabled.svg" />
+    <Content Include="design\qss\light\close-hover.svg" />
+    <Content Include="design\qss\light\close-pressed.svg" />
+    <Content Include="design\qss\light\close.svg" />
+    <Content Include="design\qss\light\down_arrow-hover.svg" />
+    <Content Include="design\qss\light\down_arrow.svg" />
+    <Content Include="design\qss\light\down_arrow_disabled.svg" />
+    <Content Include="design\qss\light\hmovetoolbar.svg" />
+    <Content Include="design\qss\light\hsepartoolbar.svg" />
+    <Content Include="design\qss\light\left_arrow.svg" />
+    <Content Include="design\qss\light\left_arrow_disabled.svg" />
+    <Content Include="design\qss\light\radio_checked-hover.svg" />
+    <Content Include="design\qss\light\radio_checked.svg" />
+    <Content Include="design\qss\light\radio_checked_disabled.svg" />
+    <Content Include="design\qss\light\radio_unchecked-hover.svg" />
+    <Content Include="design\qss\light\radio_unchecked_disabled.svg" />
+    <Content Include="design\qss\light\right_arrow.svg" />
+    <Content Include="design\qss\light\right_arrow_disabled.svg" />
+    <Content Include="design\qss\light\sizegrip.svg" />
+    <Content Include="design\qss\light\spinup_disabled.svg" />
+    <Content Include="design\qss\light\stylesheet-branch-end.svg" />
+    <Content Include="design\qss\light\stylesheet-branch-more.svg" />
+    <Content Include="design\qss\light\stylesheet-vline.svg" />
+    <Content Include="design\qss\light\transparent.svg" />
+    <Content Include="design\qss\light\undock-hover.svg" />
+    <Content Include="design\qss\light\undock.svg" />
+    <Content Include="design\qss\light\up_arrow-hover.svg" />
+    <Content Include="design\qss\light\up_arrow.svg" />
+    <Content Include="design\qss\light\up_arrow_disabled.svg" />
+    <Content Include="design\qss\light\vmovetoolbar.svg" />
+    <Content Include="design\qss\light\vsepartoolbars.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

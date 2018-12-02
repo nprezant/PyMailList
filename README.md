@@ -11,7 +11,7 @@ Follow steps 1 and 2 of [Google's instructions](https://developers.google.com/gm
 Clone this repository
 
 ```python
-git clone [this repository]
+git clone https://github.com/nprezant/PyMailList.git
 ```
     
 Might as well install all the rest of the package requirements (this should just add PyQt5)

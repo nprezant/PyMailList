@@ -30,7 +30,7 @@ pythonz-bd==1.11.4
 requests==2.20.1
 requests-download==0.1.2
 resumable-urlretrieve==0.1.5
-rsa==3.4.2
+rsa==4.1
 semver==2.7.8
 six==1.10.0
 uritemplate==3.0.0
